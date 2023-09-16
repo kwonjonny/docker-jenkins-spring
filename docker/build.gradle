@@ -9,13 +9,13 @@ group = 'jenkins'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '11'
-	targetCompatibility = '11'
+	sourceCompatibility = '17'
+	targetCompatibility = '17'
 }
 
 compileJava {
-    sourceCompatibility = '11'
-    targetCompatibility = '11'
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
 }
 
 
@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-web:3.1.2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	// JSP
