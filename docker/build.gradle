@@ -9,13 +9,13 @@ group = 'jenkins'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '17'
-	targetCompatibility = '17'
+	sourceCompatibility = '11'
+	targetCompatibility = '11'
 }
 
 compileJava {
-    sourceCompatibility = '17'
-    targetCompatibility = '17'
+    sourceCompatibility = '11'
+    targetCompatibility = '11'
 }
 
 
