@@ -26,6 +26,13 @@ compileJava {
 	targetCompatibility = JavaVersion.VERSION_17
 }
 
+tasks.withType(JavaCompile) {
+    options.fork = true
+    options.forkOptions.with {
+        jvmArgs = ["--release", "17"]
+    }
+}
+
 repositories {
 	mavenCentral()
 }
