@@ -14,10 +14,9 @@ java {
 }
 
 compileJava {
-    sourceCompatibility = '17'
-    targetCompatibility = '17'
+    options.fork = true
+    options.forkOptions.jvmArgs = ["--release", "17"]
 }
-
 
 repositories {
 	mavenCentral()
