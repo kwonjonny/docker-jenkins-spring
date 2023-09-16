@@ -13,6 +13,12 @@ java {
 	targetCompatibility = '17'
 }
 
+compileJava {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+
 repositories {
 	mavenCentral()
 }
