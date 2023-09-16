@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  spring-app:
+    build: .
+    ports:
+      - "8585:8585"
+    environment:
+      - LANG=ko_KR.utf8
