@@ -12,7 +12,7 @@ public class JenkinsDockerController {
     public String dockerApplication() {
         System.out.println("젠킨스 콜링");
         System.out.println("젠킨스 도커 허브 이미지 푸시완료");
-
+        System.out.println("젠킨스 이주용 컷");
         return "spring/jenkins";
     }
 }
